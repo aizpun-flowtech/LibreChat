@@ -57,11 +57,12 @@ interface:
 
       By using the Website, you acknowledge that you have read these Terms of Service and agree to be bound by them.
     
-# Example Registration Object Structure (optional)
+# Example Registration Object Structure
 registration:
-  socialLogins: ['github', 'google', 'discord', 'openid', 'facebook']
-  # allowedDomains:
-  # - "gmail.com"
+  #socialLogins: ["google", "facebook", "github", "discord", "openid"]
+  allowedDomains:
+    - "dr-walter.com"
+    - "flow-tech.org"
 
 # speech:
 #   tts:
