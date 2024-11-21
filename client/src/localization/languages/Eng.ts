@@ -661,7 +661,7 @@ export default {
   com_ui_roleplay: 'Roleplay',
   com_ui_write: 'Writing',
   com_ui_idea: 'Ideas',
-  com_ui_shop: 'Shopping',
+  com_ui_shop: 'Claimsmanager',
   com_ui_finance: 'Finance',
   com_ui_code: 'Code',
   com_ui_travel: 'Travel',
