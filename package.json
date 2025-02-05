@@ -80,7 +80,7 @@
   },
   "homepage": "https://librechat.ai/",
   "dependencies": {
-    "showdown": "^2.1.0",
+    "showdown": "^2.1.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.9.1",
