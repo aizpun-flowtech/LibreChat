@@ -148,7 +148,7 @@ const SidePanel = ({
           const final = `
               <div><div style="flex: 1; padding: 10px;">${html}</div></div>
             `;
-          const response = await fetch('http://37.252.190.141:5000/api/Insurai/chat/save', {
+          const response = await fetch('https://aizpun.autarc-ai.de/api/Insurai/chat/save', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
