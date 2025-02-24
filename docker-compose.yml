@@ -27,8 +27,10 @@ services:
       - type: bind
         source: ./librechat.yaml
         target: /app/librechat.yaml
+      - type: bind
+        source: ./client/public/assets
+        target: /app/client/public/assets
       - ./images:/app/client/public/images
-      - ./client/public/assets:/app/client/public/assets
       - ./logs:/app/api/logs
   mongodb:
     container_name: chat-mongodb
